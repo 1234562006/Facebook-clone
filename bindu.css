@@ -1,0 +1,82 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f0f2f5;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1877f2;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar input {
+  padding: 5px;
+  width: 40%;
+}
+
+.nav-icons span {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+/* Layout */
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 25%;
+  padding: 20px;
+}
+
+.sidebar p {
+  padding: 10px;
+  background: white;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Main */
+.main {
+  width: 50%;
+  padding: 20px;
+}
+
+/* Create Post */
+.create-post {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.create-post input {
+  width: 80%;
+  padding: 10px;
+}
+
+.create-post button {
+  padding: 10px;
+  background: #1877f2;
+  color: white;
+  border: none;
+}
+
+/* Post */
+.post {
+  background: white;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.post button {
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}

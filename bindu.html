@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook Clone</title>
+  <link rel="stylesheet" href="bindu.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  <h2>Facebook</h2>
+  <input type="text" placeholder="Search Facebook">
+  <div class="nav-icons">
+    <span>🏠</span>
+    <span>🔔</span>
+    <span>👤</span>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <p><b>Your Profile</b></p>
+    <p>Friends</p>
+    <p>Groups</p>
+    <p>Pages</p>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+
+    <!-- Create Post -->
+    <div class="create-post">
+      <input type="text" id="postInput" placeholder="What's on your mind?">
+      <button onclick="addPost()">Post</button>
+    </div>
+
+    <!-- Posts -->
+    <div id="posts"></div>
+
+  </div>
+
+</div>
+
+<script src="bindu.js"></script>
+</body>
+</html>
